@@ -1,0 +1,51 @@
+hello: xin chào
+hi: chào
+thankyou: cảm ơn
+maths: môn toán
+music: âm nhạc
+art: mĩ thuật
+history: lịch sử
+science: bộ môn khoa học
+physiccal education: thể chất
+physics: vật lý
+biology: sinh học
+chemistry: hóa học
+literature: văn học
+geometry: hình học
+geography: địa lí
+english: tiếng anh
+nature: Bản chất
+fact: Việc
+product: Sản phẩm
+idea: Ý kiến
+temperature: Nhiệt độ
+investment: Đầu tư
+area: Khu vực
+society: Xã hội
+activity: Hoạt động
+story: Câu chuyện
+industry: Ngành công nghiệp
+media: Phương tiện truyền thông
+thing: những vật
+oven: Lò nướng
+community: Cộng đồng
+definition: Định nghĩa
+safety: Sự an toàn
+quality: Chất lượng
+development: Phát triển
+language: Ngôn ngữ
+management: Quản lý
+player: Người chơi
+variety: Nhiều
+video: Video
+week: Tuần
+security: An ninh
+country: Nước
+exam: Thi
+movie: Phim
+organization: Cơ quan
+equipment: Thiết bị
+physics: Vật lý
+analysis: Nghiên cứu
+policy: Chính sách
+series: Loạt

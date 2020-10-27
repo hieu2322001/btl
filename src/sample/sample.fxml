@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3399FF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ListView fx:id="listView" layoutX="23.0" layoutY="129.0" onMouseClicked="#Show_word" prefHeight="242.0" prefWidth="226.0" />
+      <TextField fx:id="AnhText" layoutX="255.0" layoutY="92.0" prefHeight="26.0" prefWidth="321.0" />
+      <TextField fx:id="VietText" layoutX="254.0" layoutY="129.0" prefHeight="164.0" prefWidth="322.0" />
+      <AnchorPane layoutX="23.0" layoutY="9.0" prefHeight="79.0" prefWidth="553.0" style="-fx-background-color: #FFFF99;">
+         <children>
+            <Button fx:id="buttonTim" layoutX="6.0" layoutY="51.0" mnemonicParsing="false" onAction="#Tim_tu" prefHeight="26.0" prefWidth="215.0" text="Search" />
+            <Button fx:id="buttonSua" layoutX="234.0" layoutY="52.0" mnemonicParsing="false" onAction="#Fix_word" prefHeight="26.0" prefWidth="154.0" text="Fix" />
+            <Button fx:id="buttonXoa" layoutX="397.0" layoutY="52.0" mnemonicParsing="false" onAction="#Xoa_tu" prefHeight="26.0" prefWidth="154.0" text="Delete" />
+            <Text fill="#2b37b2" fontSmoothingType="LCD" layoutX="28.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DICTIONARY" textAlignment="CENTER" wrappingWidth="168.53680419921875">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="TimText" layoutX="23.0" layoutY="92.0" onAction="#Tim_tu" onKeyReleased="#autocompelete" prefHeight="26.0" prefWidth="226.0" />
+      <Button fx:id="buttonThem" layoutX="255.0" layoutY="305.0" mnemonicParsing="false" onAction="#Them_tu" prefHeight="26.0" prefWidth="46.0" text="Add" />
+      <TextField fx:id="addE" layoutX="321.0" layoutY="305.0" prefHeight="26.0" prefWidth="254.0" />
+      <TextField fx:id="addV" layoutX="321.0" layoutY="344.0" prefHeight="26.0" prefWidth="254.0" />
+   </children>
+</AnchorPane>
